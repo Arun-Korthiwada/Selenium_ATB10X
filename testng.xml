@@ -3,7 +3,7 @@
 <suite name="MySuite" verbose="1">
     <test name="MyTest">
         <classes>
-           <class name="Selenium_Waits.MiniProject"/>
+           <class name="Selenium_Waits.MiniProject_ExplicitWait"/>
         </classes>
     </test>
 </suite>
