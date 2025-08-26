@@ -13,7 +13,7 @@ import java.time.Duration;
 public class MiniProject_ExplicitWait {
     @Test
     public void testCloseModal(){
-        System.setProperty("webdriver.edge.driver","\"C:\\Drivers\\edgedriver_win64\\msedgedriver.exe\"");
+        System.setProperty("webdriver.edge.driver","C:\\Drivers\\edgedriver_win64\\msedgedriver.exe");
         EdgeOptions edgeOptions = new EdgeOptions();
         edgeOptions.addArguments("--incognito");
         edgeOptions.addArguments("--start-maximized");
